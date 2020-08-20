@@ -47,12 +47,13 @@ p{
     }
 
 .center a{
+    margin: 10px;
     font-family: sans-serif;
     color: white;
     text-decoration: none;
     border: solid;
     border-radius: 25px;
-    padding: 5px;
+    padding: 8px;
     font-size: 2em;
 }
 
