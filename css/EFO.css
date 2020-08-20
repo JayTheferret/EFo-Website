@@ -42,6 +42,7 @@ h3{
 }
 p{
     color: white;
+    font-family: Arial
 }
 
 .centeri{
@@ -67,7 +68,7 @@ p{
     font-size: 2em;
 }
 .center a:hover{
-    color: fuchsia;
+    border-color: fuchsia;
 }
 .center li{
     color: wheat;
@@ -83,10 +84,10 @@ span{
 }
 
 .container{
-    margin: 15px;
+    margin: 20px;
     width: 350px;
     background-color: #240024;
-    box-shadow: 5px 5px 10px fuchsia;
+    box-shadow: 5px 5px 10px rgba(255,0,255,.8);
     border-radius: 25px;
     height: 600px;
 }
@@ -105,7 +106,21 @@ span{
     justify-content: center;
 }
 
-hr{
-    border: 2px solid fuchsia;
+hr {
+    height: 1px;
     margin: 20px;
-}
+    background: -webkit-linear-gradient(left, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background: -moz-linear-gradient(left, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background: linear-gradient(left, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%); 
+    border: 0;
+  }
+  hr:after {
+    display: block;
+    content: '';
+    height: 5px;
+    background-image: -webkit-radial-gradient(center top, farthest-side, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background-image: -moz-radial-gradient(center top, farthest-side, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background-image: -o-radial-gradient(center top, farthest-side, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+    background-image: radial-gradient(farthest-side at center top, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
+  }
