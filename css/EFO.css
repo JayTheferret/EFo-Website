@@ -21,6 +21,14 @@ body {
     margin :5%;
 }
 
+.no-padding{
+    padding: 0%;
+    margin: 0%;
+}
+
+table{
+    color: white;
+}
 
 h1,h2,p {
     font-family: 'Orbitron', sans-serif;
@@ -46,7 +54,7 @@ p{
 .center {
     text-align: center;
     padding: 10px;
-    }
+}
 
 .center a{
     margin: 10px;
@@ -65,9 +73,15 @@ p{
     color: wheat;
 }
 
+.table-center{
+    margin-left: auto;
+    margin-right:auto;
+}
+
 span{
     color:fuchsia;
 }
+
 .container{
     margin: 15px;
     width: 350px;
