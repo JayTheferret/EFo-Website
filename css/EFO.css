@@ -83,6 +83,14 @@ span{
     color:fuchsia;
 }
 
+.container2{
+    margin: 20px;
+    width: 350px;
+    background-color: #240024;
+    box-shadow: 5px 5px 10px rgba(255,0,255,.8);
+    border-radius: 25px;
+    height: 650px;
+}
 .container{
     margin: 20px;
     width: 350px;
@@ -94,6 +102,9 @@ span{
 .container p{
     padding: 10px;
     width: auto;
+}
+.container2 img{
+    border-radius: 25px 25px 0 0;
 }
 
 .container img{
