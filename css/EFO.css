@@ -84,14 +84,7 @@ span{
     color:fuchsia;
 }
 
-.container2{
-    margin: 20px;
-    width: 350px;
-    background-color: #240024;
-    box-shadow: 5px 5px 10px rgba(255,0,255,.8);
-    border-radius: 25px;
-    height: 650px;
-}
+
 .container{
     margin: 20px;
     width: 350px;
@@ -136,3 +129,12 @@ hr {
     background-image: -o-radial-gradient(center top, farthest-side, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
     background-image: radial-gradient(farthest-side at center top, rgba(255,0,255,1) 0%, rgba(255,0,255,1) 35%, rgba(255,0,255,0) 100%);
   }
+
+  .container2{
+    margin: 20px;
+    width: 350px;
+    background-color: #240024;
+    box-shadow: 5px 5px 10px rgba(255,0,255,.8);
+    border-radius: 25px;
+    height: 650px;
+}
